@@ -1,0 +1,15 @@
+plugins{
+    id 'java'
+}
+
+repositories {
+    maven{
+        url 'https://repo.maven.apache.org/maven2'
+    }
+}
+
+dependencies {
+// https://mvnrepository.com/artifact/com.intuit.karate/karate-core
+    implementation 'com.intuit.karate:karate-core:1.4.0.RC3'
+
+}
